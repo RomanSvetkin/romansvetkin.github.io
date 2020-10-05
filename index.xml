@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROMAN SVETKIN on Svetkin Analytics</title>
+    <link>https://romansvetkin.github.io/</link>
+    <description>Recent content in ROMAN SVETKIN on Svetkin Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Oct 2020 11:00:59 -0400</lastBuildDate>
+    
+	<atom:link href="https://romansvetkin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Trainer and a Binary Classifier based on Naive Bayes Algorithm</title>
+      <link>https://romansvetkin.github.io/post/bayes/</link>
+      <pubDate>Mon, 05 Oct 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/bayes/</guid>
+      <description>In machine learning, Naive Bayes classifiers are a family of simple &amp;ldquo;probabilistic classifiers&amp;rdquo; based on applying Bayes theorem with strong (but Naive) independence assumptions between the features. In probability theory and statistics, Bayes&amp;rsquo; theorem (alternatively Bayes law or Bayes rule) describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+The aim of this project is to build a spam filter using Naive Bayes algorithm from scratch.</description>
+    </item>
+    
+    <item>
+      <title>Finding The Best Markets To Advertise In</title>
+      <link>https://romansvetkin.github.io/post/two_markets/</link>
+      <pubDate>Wed, 30 Sep 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/two_markets/</guid>
+      <description>In this project, we&amp;rsquo;ll aim to find the two best markets to advertise our product in — we&amp;rsquo;re working for an e-learning company that offers courses on programming. Most of our courses are on web and mobile development, but we also cover many other domains, like data science, game development, etc.
+The objective of this project is to strengthen statistical skills such as - summarizing distributions, measuring variability of a distribution, and understanding of z-scores.</description>
+    </item>
+    
+    <item>
+      <title>User Cohort Analysis</title>
+      <link>https://romansvetkin.github.io/post/cohort/</link>
+      <pubDate>Sun, 20 Sep 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/cohort/</guid>
+      <description>I was recently tasked with making a cohort analysis to get valuable insights about the behavior of the business’ customers/users.
+By understanding user retention, we can infer the stickiness/loyalty of the customers and evaluate the health of the business.
+  I&amp;rsquo;ve practiced on anonymised data first before putting my hands on the real company data. The dataset was pulled from the UCI website:
+Link to Dataset
+Check out my GitHub if you need to find out how to perform Cohort Analysis for your business:</description>
+    </item>
+    
+    <item>
+      <title>Investigating Fandango Movie Ratings</title>
+      <link>https://romansvetkin.github.io/post/fandango/</link>
+      <pubDate>Tue, 25 Aug 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/fandango/</guid>
+      <description>In October 2015, a data journalist named Walt Hickey analysed movie ratings data and found strong evidence to suggest that Fandango&amp;rsquo;s rating system was biased and dishonest (Fandango is an online movie ratings aggregator). He published his analysis — a great piece of data journalism that&amp;rsquo;s totally worth reading.
+In this project, I analysed more recent movie ratings data to determine whether there has been any change in Fandango&amp;rsquo;s rating system after the Hickey&amp;rsquo;s analysis.</description>
+    </item>
+    
+    <item>
+      <title>Popular Data Science Questions</title>
+      <link>https://romansvetkin.github.io/post/ds_topics/</link>
+      <pubDate>Mon, 24 Aug 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/ds_topics/</guid>
+      <description>I looked at Data Science Stack Exchange (DSSE), a data science dedicated site from Stack Exchange to figure out what is the best data science content to write about because I am planning to start posting short tutorials on Data Science websites and want to know what&amp;rsquo;s trending.
+  Check out my GitHub repo for more details:
+Link to GitHub Repository
+#dataanalysis #analysis #datascience</description>
+    </item>
+    
+    <item>
+      <title>Star Wars Survey Analysis</title>
+      <link>https://romansvetkin.github.io/post/star_wars/</link>
+      <pubDate>Wed, 05 Aug 2020 11:13:32 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/star_wars/</guid>
+      <description>I looked at the Star Wars fan base and their survey responses collected by FiveThirtyEight team using an online tool SurveyMonkey to verify that The Empire Strikes Back is clearly the best of the bunch :)
+The findings:
+  Star Wars fans are well aware of the importance of the Episode 5 - The Empire Strikes Back movie. Not only was this the most seen movie as it was the one they ranked at number one from all the 6 episodes of the saga.</description>
+    </item>
+    
+    <item>
+      <title>Cleaning and Analysing Employee Exit Surveys </title>
+      <link>https://romansvetkin.github.io/post/dete/</link>
+      <pubDate>Sat, 01 Aug 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/dete/</guid>
+      <description>For this project, I was interested in 2 institutes and came across their datasets in the public domain - Department of Education, Training and Employment (DETE) and the Technical and Further Education (TAFE) institute in Queensland, Australia. I wanted to know whether:
+ Employees who only worked for the institutes for a short period of time were resigning due to some kind of dissatisfaction. Also, what about experienced, established and veteran employees, who have been there longer?</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Earnings Based On College Majors</title>
+      <link>https://romansvetkin.github.io/post/unemployed/</link>
+      <pubDate>Sun, 12 Jul 2020 11:14:48 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/unemployed/</guid>
+      <description>I was curious which majors high school students should go for since a lot of my relatives are in the final years of high school and it&amp;rsquo;s an important decision in life, they&amp;rsquo;d better think it twice!
+I worked with a dataset on the job outcomes of students who graduated from colleges between 2017 and 2019. The original data on job outcomes was released by American Community Survey.
+I analysed if there is any correlation between the majors chosen in college by students, with their future jobs.</description>
+    </item>
+    
+    <item>
+      <title>Analysing NYC High School Data</title>
+      <link>https://romansvetkin.github.io/post/sat/</link>
+      <pubDate>Fri, 05 Jun 2020 10:58:08 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/sat/</guid>
+      <description>New York City has a significant immigrant population and is very diverse, so comparing demographic factors such as race, income, and gender with SAT scores is a good way to determine whether the SAT is a fair test. For example, if certain racial groups consistently perform better on the SAT, we would have some evidence that the SAT is unfair.
+All in all, I observed that Hispanic and black ethnic groups are very disadvantaged in comparison with white and Asian ethnic groups: they study in the less safe schools with poor academic standards.</description>
+    </item>
+    
+    <item>
+      <title>Answering Business Questions using SQL</title>
+      <link>https://romansvetkin.github.io/post/sql_practice/</link>
+      <pubDate>Wed, 20 May 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/sql_practice/</guid>
+      <description>I was working with a modified version of a database called Chinook. The Chinook database contains information about a fictional digital music shop - kind of like a mini-iTunes store. The Chinook database contains information about the artists, songs, and albums from the music shop, as well as information on the shop&amp;rsquo;s employees, customers, and the customers purchases. This information is contained in eleven tables.
+  Check out my GitHub repo for more details:</description>
+    </item>
+    
+  </channel>
+</rss>
