@@ -6,10 +6,20 @@
     <description>Recent content in ROMAN SVETKIN on Svetkin Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 11:00:59 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2020 11:00:59 -0400</lastBuildDate>
     
 	<atom:link href="https://romansvetkin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Predicting Car Prices</title>
+      <link>https://romansvetkin.github.io/post/predicting_car_prices/</link>
+      <pubDate>Tue, 20 Oct 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/predicting_car_prices/</guid>
+      <description>The aim of this project is to investigate the effect of varying parameters on the accuracy of a K-Nearest neighbors prediction. We vary the number and quality of features as well as the hyperparameter(number of nearest neighbors) independently. Then we vary them in combination and make plots of our findings. Finally, we repeat the analysis with a k-fold cross validation algorithm.
+In this project, we will predict a car&amp;rsquo;s market price using its attributes.</description>
+    </item>
     
     <item>
       <title>Building a Trainer and a Binary Classifier based on Naive Bayes Algorithm</title>
