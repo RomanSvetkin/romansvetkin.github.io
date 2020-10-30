@@ -6,10 +6,22 @@
     <description>Recent content in ROMAN SVETKIN on Svetkin Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 11:00:59 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2020 11:00:59 -0400</lastBuildDate>
     
 	<atom:link href="https://romansvetkin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Predicting House Sale Prices with Linear Regression</title>
+      <link>https://romansvetkin.github.io/post/predicting_house_sale_prices/</link>
+      <pubDate>Sun, 25 Oct 2020 11:00:59 -0400</pubDate>
+      
+      <guid>https://romansvetkin.github.io/post/predicting_house_sale_prices/</guid>
+      <description>In this project, we&amp;rsquo;ll build a Linear Regression model and exploring ways to improve it. We will work with housing data for the city of Ames, Iowa, United States from 2006 to 2010. Read more about why the data was collected here. Read about the different columns in the data here.
+  Check out my GitHub repo for more details:
+Link to GitHub Repository
+#dataanalysis #analysis #datascience</description>
+    </item>
     
     <item>
       <title>Predicting Car Prices</title>

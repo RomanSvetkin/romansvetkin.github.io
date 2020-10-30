@@ -3,14 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://romansvetkin.github.io/post/predicting_car_prices/</loc>
-    <lastmod>2020-10-20T11:00:59-04:00</lastmod>
+    <loc>https://romansvetkin.github.io/post/predicting_house_sale_prices/</loc>
+    <lastmod>2020-10-25T11:00:59-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://romansvetkin.github.io/</loc>
+    <lastmod>2020-10-25T11:00:59-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://romansvetkin.github.io/post/predicting_car_prices/</loc>
     <lastmod>2020-10-20T11:00:59-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
