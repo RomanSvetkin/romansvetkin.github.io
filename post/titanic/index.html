@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Predicting Bike Rentals | Svetkin Analytics</title>
+    <title>Predicting Who Survives the Titanic Disaster | Svetkin Analytics</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
     <meta name="generator" content="Hugo 0.74.3" />
     
@@ -26,27 +26,27 @@
 
     
     
-    <meta property="og:title" content="Predicting Bike Rentals" />
-<meta property="og:description" content="Many American cities have communal bike sharing stations where you can rent bicycles by the hour or day. Washington, D.C. is one of these cities. The District collects detailed data on the number of bicycles people rent by the hour and day.
-Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, which we will be working with in this project. The file contains 17380 rows, with each row representing the number of bike rentals for a single hour of a single day." />
+    <meta property="og:title" content="Predicting Who Survives the Titanic Disaster" />
+<meta property="og:description" content="This project is for all aspiring data scientists to learn from and to review their knowledge. We will have a detailed statistical analysis of Titanic data set along with Machine learning model implementation. I am super excited to share my first kernel with the Kaggle community. As I go on in this journey and learn new topics, I will incorporate them with each new updates.
+Project Goals  There are three primary goals of this project." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://romansvetkin.github.io/post/predicting_bike_rentals/" />
-<meta property="article:published_time" content="2020-11-04T11:00:59-04:00" />
-<meta property="article:modified_time" content="2020-11-04T11:00:59-04:00" />
-<meta itemprop="name" content="Predicting Bike Rentals">
-<meta itemprop="description" content="Many American cities have communal bike sharing stations where you can rent bicycles by the hour or day. Washington, D.C. is one of these cities. The District collects detailed data on the number of bicycles people rent by the hour and day.
-Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, which we will be working with in this project. The file contains 17380 rows, with each row representing the number of bike rentals for a single hour of a single day.">
-<meta itemprop="datePublished" content="2020-11-04T11:00:59-04:00" />
-<meta itemprop="dateModified" content="2020-11-04T11:00:59-04:00" />
-<meta itemprop="wordCount" content="368">
+<meta property="og:url" content="https://romansvetkin.github.io/post/titanic/" />
+<meta property="article:published_time" content="2020-11-08T11:00:59-04:00" />
+<meta property="article:modified_time" content="2020-11-08T11:00:59-04:00" />
+<meta itemprop="name" content="Predicting Who Survives the Titanic Disaster">
+<meta itemprop="description" content="This project is for all aspiring data scientists to learn from and to review their knowledge. We will have a detailed statistical analysis of Titanic data set along with Machine learning model implementation. I am super excited to share my first kernel with the Kaggle community. As I go on in this journey and learn new topics, I will incorporate them with each new updates.
+Project Goals  There are three primary goals of this project.">
+<meta itemprop="datePublished" content="2020-11-08T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2020-11-08T11:00:59-04:00" />
+<meta itemprop="wordCount" content="130">
 
 
 
 <meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Predicting Bike Rentals"/>
-<meta name="twitter:description" content="Many American cities have communal bike sharing stations where you can rent bicycles by the hour or day. Washington, D.C. is one of these cities. The District collects detailed data on the number of bicycles people rent by the hour and day.
-Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, which we will be working with in this project. The file contains 17380 rows, with each row representing the number of bike rentals for a single hour of a single day."/>
+<meta name="twitter:title" content="Predicting Who Survives the Titanic Disaster"/>
+<meta name="twitter:description" content="This project is for all aspiring data scientists to learn from and to review their knowledge. We will have a detailed statistical analysis of Titanic data set along with Machine learning model implementation. I am super excited to share my first kernel with the Kaggle community. As I go on in this journey and learn new topics, I will incorporate them with each new updates.
+Project Goals  There are three primary goals of this project."/>
 
 	
   </head>
@@ -59,7 +59,7 @@ Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, whi
 
   
   
-  <header class="cover bg-top" style="background-image: url('https://romansvetkin.github.io/images/models.png');">
+  <header class="cover bg-top" style="background-image: url('https://romansvetkin.github.io/images/titanic.png');">
     <div class="pb3-m pb6-l bg-black-60">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l justify-between items-center center">
@@ -136,7 +136,7 @@ Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, whi
 
       <div class="tc-l pv6 ph3 ph4-ns">
         
-          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Predicting Bike Rentals</h1>
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Predicting Who Survives the Titanic Disaster</h1>
           
         
       </div>
@@ -162,20 +162,20 @@ Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, whi
   <div id="sharing" class="mt3">
 
     
-    <a href="https://www.facebook.com/sharer.php?u=https://romansvetkin.github.io/post/predicting_bike_rentals/" class="facebook no-underline" aria-label="share on Facebook">
+    <a href="https://www.facebook.com/sharer.php?u=https://romansvetkin.github.io/post/titanic/" class="facebook no-underline" aria-label="share on Facebook">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
 
     </a>
 
     
     
-    <a href="https://twitter.com/share?url=https://romansvetkin.github.io/post/predicting_bike_rentals/&amp;text=Predicting%20Bike%20Rentals" class="twitter no-underline" aria-label="share on Twitter">
+    <a href="https://twitter.com/share?url=https://romansvetkin.github.io/post/titanic/&amp;text=Predicting%20Who%20Survives%20the%20Titanic%20Disaster" class="twitter no-underline" aria-label="share on Twitter">
       <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
 
     </a>
 
     
-    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://romansvetkin.github.io/post/predicting_bike_rentals/&amp;title=Predicting%20Bike%20Rentals" class="linkedin no-underline" aria-label="share on LinkedIn">
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://romansvetkin.github.io/post/titanic/&amp;title=Predicting%20Who%20Survives%20the%20Titanic%20Disaster" class="linkedin no-underline" aria-label="share on LinkedIn">
       <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
 </svg>
@@ -184,46 +184,26 @@ Hadi Fanaee-T at the University of Porto compiled this data into a CSV file, whi
   </div>
 
 
-      <h1 class="f1 athelas mt3 mb1">Predicting Bike Rentals</h1>
+      <h1 class="f1 athelas mt3 mb1">Predicting Who Survives the Titanic Disaster</h1>
       
       
-      <time class="f6 mv4 dib tracked" datetime="2020-11-04T11:00:59-04:00">November 4, 2020</time>
+      <time class="f6 mv4 dib tracked" datetime="2020-11-08T11:00:59-04:00">November 8, 2020</time>
 
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Many American cities have communal bike sharing stations where you can rent bicycles by the hour or day. Washington, D.C. is one of these cities. The District collects detailed data on the number of bicycles people rent by the hour and day.</p>
-<p><a href="http://www.fanaee.com/">Hadi Fanaee-T</a> at the <a href="https://sigarra.up.pt/up/pt/web_base.gera_pagina?p_pagina=home">University of Porto</a> compiled this data into a CSV file, which we will be working with in this project. The file contains <code>17380</code> rows, with each row representing the number of bike rentals for a single hour of a single day. You can download the data from the <a href="http://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset">University of California, Irvine&rsquo;s website</a>.</p>
-<p>Here are the descriptions for the relevant columns:</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This project is for all aspiring data scientists to learn from and to review their knowledge. We will have a detailed statistical analysis of Titanic data set along with Machine learning model implementation. I am super excited to share my first kernel with the Kaggle community. As I go on in this journey and learn new topics, I will incorporate them with each new updates.</p>
+<h1 id="project-goals">Project Goals</h1>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<hr>
+<p>There are three primary goals of this project.</p>
 <ul>
-<li><code>instant</code>: record index</li>
-<li><code>dteday</code> : date</li>
-<li><code>season</code> : season (1:winter, 2:spring, 3:summer, 4:fall)</li>
-<li><code>yr</code> : year (0: 2011, 1:2012)</li>
-<li><code>mnth</code> : month (1 to 12)</li>
-<li><code>hr</code> : hour (0 to 23)</li>
-<li><code>holiday</code> : weather day is holiday or not (extracted from [Web Link])</li>
-<li><code>weekday</code> : day of the week</li>
-<li><code>workingday</code> : if day is neither weekend nor holiday is 1, otherwise is 0.</li>
-<li><code>weathersit</code>:
-<ul>
-<li>1: Clear, Few clouds, Partly cloudy, Partly cloudy</li>
-<li>2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist</li>
-<li>3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds</li>
-<li>4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog</li>
+<li><!-- raw HTML omitted -->Do a statistical analysis<!-- raw HTML omitted --> of how some group of people was survived more than others.</li>
+<li><!-- raw HTML omitted -->Do an exploratory data analysis(EDA)<!-- raw HTML omitted --> of titanic with visualizations and storytelling.</li>
+<li><!-- raw HTML omitted -->Predict<!-- raw HTML omitted -->: Use machine learning classification models to predict the chances of passengers survival.</li>
 </ul>
-</li>
-<li><code>temp</code> : Normalized temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (only in hourly scale)</li>
-<li><code>atemp</code>: Normalized feeling temperature in Celsius. The values are derived via (t-t_min)/(t_max-t_min), t_min=-16, t_max=+50 (only in hourly scale)</li>
-<li><code>hum</code>: Normalized humidity. The values are divided to 100 (max)</li>
-<li><code>windspeed</code>: Normalized wind speed. The values are divided to 67 (max)</li>
-<li><code>casual</code>: count of casual users</li>
-<li><code>registered</code>: count of registered users</li>
-<li><code>cnt</code>: count of total rental bikes including both casual and registered</li>
-</ul>
-<p>In this project, we will try to predict the total number of bikes people rented in a given hour. We will predict the <code>cnt</code> column using all of the other columns, except for <code>casual</code> and <code>registered</code>. To accomplish this, we will create a few different machine learning models and evaluate their performance.</p>
 <figure>
-    <img src="https://romansvetkin.github.io/images/models.png"/> 
+    <img src="https://romansvetkin.github.io/images/titanic.png"/> 
 </figure>
 
 <p>Check out my GitHub repo for the project details and outcomes:</p>
